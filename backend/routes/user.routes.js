@@ -24,7 +24,7 @@ router.post('/login', [
 
 // router.get('/profile', userController.getUserProfile)
 
-// router.get('/logout', authMiddleware.authUser, userController.logoutUser)
+router.get('/logout', authMiddleware.authUser, userController.logoutUser)
 
 
 
